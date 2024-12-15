@@ -1,0 +1,92 @@
+/* Estilo geral para o corpo do documento */
+body {
+  font-family: 'Arial', sans-serif; /* Define a fonte principal */
+  background: linear-gradient(135deg, #6a11cb, #2575fc); /* Fundo gradiente */
+  color: #fff; /* Cor do texto */
+  display: flex; /* Usa flexbox para alinhar os itens */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  align-items: center; /* Centraliza os itens verticalmente */
+  height: 100vh; /* Altura total da tela */
+  margin: 0; /* Remove margens */
+}
+
+/* Estilo para a caixa central */
+.box {
+  background: #ffffff10; /* Fundo semi-transparente */
+  padding: 20px 30px; /* Preenchimento interno */
+  border-radius: 15px; /* Bordas arredondadas */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo para os cabeçalhos h1 */
+h1 {
+  font-size: 2em; /* Tamanho da fonte */
+  margin-bottom: 20px; /* Espaço abaixo do cabeçalho */
+  color: #fff; /* Cor do texto */
+}
+
+/* Estilo para a tela */
+.tela {
+  width: 100%; /* Largura total */
+  height: 50px; /* Altura fixa */
+  background: #ffffff20; /* Fundo semi-transparente */
+  border-radius: 8px; /* Bordas arredondadas */
+  margin-bottom: 20px; /* Espaço abaixo da tela */
+  text-align: right; /* Alinha o texto à direita */
+  font-size: 1.5em; /* Tamanho da fonte */
+  padding: 10px; /* Preenchimento interno */
+  box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.1); /* Sombra interna */
+  color: #fff; /* Cor do texto */
+}
+
+/* Estilo para tabelas */
+table {
+  width: 100%; /* Largura total */
+  border-spacing: 10px; /* Espaçamento entre células */
+}
+
+/* Estilo para botões */
+button {
+  background: #fff; /* Fundo branco */
+  color: #333; /* Cor do texto */
+  font-size: 1.2em; /* Tamanho da fonte */
+  border: none; /* Remove bordas */
+  border-radius: 8px; /* Bordas arredondadas */
+  padding: 15px; /* Preenchimento interno */
+  cursor: pointer; /* Cursor de mão */
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  transition: all 0.3s ease; /* Transição suave */
+}
+
+/* Estilo para botões ao passar o mouse */
+button:hover {
+  background: #6a11cb; /* Cor de fundo ao passar o mouse */
+  color: #fff; /* Cor do texto ao passar o mouse */
+  transform: scale(1.1); /* Aumenta o botão ao passar o mouse */
+}
+
+/* Estilo para botões ao serem clicados */
+button:active {
+  transform: scale(1.05); /* Diminui levemente o botão ao ser clicado */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra ao clicar */
+}
+
+/* Estilo específico para botões com altura 102px */
+button[style*="height: 102px"] {
+  background-color: #ff5e00; /* Cor de fundo laranja */
+  color: #fff; /* Cor do texto */
+}
+
+/* Estilo para botões com altura 102px ao passar o mouse */
+button[style*="height: 102px"]:hover {
+  background-color: #e55400; /* Cor de fundo laranja escura */
+}
+
+/* Estilo para spans */
+span {
+  display: block; /* Exibe o span como um bloco */
+  margin-top: 20px; /* Espaço acima do span */
+  font-size: 0.9em; /* Tamanho da fonte */
+  opacity: 0.8; /* Opacidade reduzida */
+}
